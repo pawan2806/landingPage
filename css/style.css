@@ -1,0 +1,469 @@
+.hello {
+  padding-left: 5%;
+}
+
+.hello2 {
+  padding-right:  5%;
+}
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url(../images/pic1.jpg);
+  background-size: cover;
+  height : auto;
+  width: 100%;
+  justify-content: center;
+}
+
+.titleText {
+
+  font-size: 3rem;
+  color:#212121;
+  justify-content: center;
+  text-align: center;
+  padding: 4% 0 0;
+
+  /* text-align: center;
+  padding-top: 5%;
+  color: black; */
+
+
+}
+
+.titleText2 {
+  font-size: 2rem;
+  color:#646464;
+  justify-content: center;
+  text-align: center;
+  padding: 0px 0 5%;
+  /* text-align: center;
+  margin-bottom: 100px;
+  color: black; */
+
+}
+
+
+         .btn-grad {background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA  51%, #77A1D3  100%)}
+         .btn-grad {
+
+            padding:20px 30px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 100% auto;
+            color: white;
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+            float: none;
+
+            border:0px;
+
+
+
+width: auto;
+height: auto;// only for IE8
+max-width: 100%;
+          }
+
+
+
+
+
+
+
+
+
+
+          .container2 {
+            z-index: 1;
+          	text-align: center;
+          	position: relative;
+          	width: 300px;
+          	margin: 0 auto;
+          	cursor: pointer;
+          }
+
+          button {
+          	position: relative;
+            color: white;
+          	height: 50px;
+          	width: 200px;
+          	border: 0;
+          	border-radius: 5px;
+          	text-transform: uppercase;
+          	font-size: 1.1em;
+          	letter-spacing: 0.2em;
+          	overflow: hidden;
+          	box-shadow: 0 4px 12px 0 rgba(152, 160, 180, 10);
+          	z-index: -2;
+          }
+
+          .button-one {
+          }
+
+          .fill-one {
+          	position: absolute;
+          	background-image: linear-gradient(to right, #E040FB, #00BCD4);
+          	height: 70px;
+          	width: 420px;
+          	border-radius: 5px;
+          	margin: -40px 0 0 -140px;
+          	z-index: -1;
+          	transition: all 0.4s ease;
+          }
+
+          .container-one:hover .fill-one {
+          	-webkit-transform: translateX(100px);
+          	-moz-transform: translateX(100px);
+          	transform: translateX(100px);
+          }
+
+          .fill-two {
+          	position: absolute;
+          	background-image: linear-gradient(to right, #E040FB, #00BCD4);
+          	background-size: 150% 150%;
+          	height: 70px;
+          	width: 420px;
+          	border-radius: 5px;
+          	margin: -40px 0 0 -140px;
+          	z-index: -1;
+          	transition: all 0.4s ease;
+          }
+
+          .container-two:hover .fill-two {
+          	-webkit-animation: gradient 3s ease infinite;
+          	-moz-animation: gradient 3s ease infinite;
+          	animation: gradient 3s ease infinite;
+          }
+
+          @-webkit-keyframes gradient {
+          	0% {
+          		background-position: 0% 50%;
+          	}
+          	50% {
+          		background-position: 100% 50%;
+          	}
+          	100% {
+          		background-position: 0% 50%;
+          	}
+          }
+
+          @-moz-keyframes gradient {
+          	0% {
+          		background-position: 0% 50%;
+          	}
+          	50% {
+          		background-position: 100% 50%;
+          	}
+          	100% {
+          		background-position: 0% 50%;
+          	}
+          }
+
+          @keyframes gradient {
+          	0% {
+          		background-position: 0% 50%;
+          	}
+          	50% {
+          		background-position: 100% 50%;
+          	}
+          	100% {
+          		background-position: 0% 50%;
+          	}
+          }
+
+
+
+
+          .btn-grad:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+
+          .center {
+
+  position:relative;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.test {
+  padding-bottom: 5%;
+}
+
+
+.toggler {
+  height: 30px;
+  width: 60px;
+  background-color: gray;
+  border-radius: 25px;
+  margin-right: 2%;
+  margin-top: 2%;
+
+  margin-left: auto;
+
+
+}
+
+.toggle {
+  height: 30px;
+  width: 30px;
+  background-color: aliceblue;
+  border-radius: 100%;
+  transition: margin-left 0.5s ease;
+}
+
+.toggleTrue {
+  margin-left: 30px;
+}
+
+.toggleFalse {
+  margin-left: 0px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.light-mode {
+  background-color: white;
+  color: black;
+}
+
+.cont2 {
+  display:flex;
+  justify-content:center;
+
+}
+.servicesHead {
+  font-size: 2rem;
+  justify-content: center;
+  text-align: center;
+  padding: 2% 0 0;
+}
+
+
+/* ----------------- */
+
+
+
+.main{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.btn {
+  color: white;
+  padding: 0.8rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: linear-gradient(to right, #66ccff 0%, #0066ff 100%);
+}
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+
+}
+
+.cards {
+  display: flex;
+
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards_item {
+  display: flex;
+  padding: 2% 1% 4%;
+}
+
+@media (min-width: 40rem) {
+  .cards_item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 33.3333%;
+  }
+}
+
+.card {
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.cardFalse {
+  background-color: white;
+}
+.cardTrue {
+  background-color: black;
+}
+
+.card_content {
+  padding: 1rem;
+
+}
+
+.card_title {
+  text-align: center;
+
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+.card_text {
+
+text-align: center;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+  font-weight: 400;
+}
+.made_by{
+  font-weight: 400;
+  font-size: 13px;
+  margin-top: 35px;
+  text-align: center;
+}
+
+
+
+.bottom-container {
+background: linear-gradient(to top right, #66ccff 0%, #3333ff 100%);
+padding: 50px 0 20px;
+justify-content: center;
+display: block;
+}
+
+.copyContainer {
+  background-color: #f6f5f5;
+
+  justify-content: center;
+  display: block;
+}
+.copyrightText{
+  font-size: 0.75rem;
+  color: black;
+  justify-content: center;
+  text-align: center;
+  padding: 20px 0 20px;
+}
+.copyrightTitle{
+  font-size: 2rem;
+  color:#dbf6e9;
+  justify-content: center;
+  text-align: center;
+  padding: 0px 0 20px;
+
+}
+
+
+.copyrightBaby {
+  font-size: 1.4rem;
+  color: #fceef5;
+  justify-content: center;
+  text-align: center;
+  padding: 20px 0 0px;
+}
+
+
+
+/* #card1 {
+   border: 1px solid white;
+}
+#card2 {
+   border: 1px solid white;
+}
+#card3 {
+   border: 1px solid white;
+} */
+
+.bodu {
+  border: 3px solid;
+
+  border-image: linear-gradient(to right, #66ccff 0%, #0066ff 100%) 1;
+}
+
+
+
+
+
+
+
+
+.button2 {
+  display:table;
+  background-size:200% 200%!important;
+  color:#7579e7;
+  text-transform:uppercase;
+  text-decoration:none;
+  letter-spacing:1px;
+  padding:0.5em 0.5em;
+  margin:0em auto;
+  border-radius:0.3em;
+  -webkit-transition:all 200ms linear;
+
+  &:hover {
+    background-size:110% 110%!important;
+    padding:1.3em 2.1em;
+    -webkit-transition:all 200ms linear;
+  }
+
+  &.inverse {
+    font-weight:bold;
+    padding:0em 0em;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+
+    border-width:0.25em;
+    border-style:solid;
+    border-image-source:linear-gradient(45deg,#7579e7,#9ab3f5);
+    border-image-slice:30%;
+    border-image-width:1;
+    border-image-repeat:stretch;
+    // i wish i could round these but you just can't mix border-radius with border-image ¯\_(ツ)_/¯
+
+    &:hover {
+      background-size:100% 100%!important;
+      border-image-slice:3%;
+      padding:0em 0em;
+    }
+  }
+}
